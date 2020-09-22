@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700"); */
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courier+Prime:wght@700&family=Grandstander:wght@300&display=swap");
 @import url("fontawesome-all.min.css");
 
 /*
@@ -98,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Architects Daughter', cursive;
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 300;
@@ -1995,13 +1996,16 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background-image: none;
+			/* background-image: url("images/lightning.jpg"); */
 			background-color: #fff;
+			background-attachment: fixed;
 		}
 
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
+			/* background-image: url("images/lightning.jpg"); */
+			background-attachment: fixed;
 		}
 
 		.wrapper.style3 {
@@ -2128,6 +2132,7 @@ input, select, textarea {
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
+			color: #010d13;
 		}
 
 			#top p a {
