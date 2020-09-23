@@ -2069,7 +2069,8 @@ input, select, textarea {
 			-webkit-transition: background-color .2s ease-in-out;
 			-ms-transition: background-color .2s ease-in-out;
 			transition: background-color .2s ease-in-out;
-			position: relative;
+			/* position: relative; */
+			position: inherit;
 			display: block;
 			color: #fff;
 			text-decoration: none;
@@ -2082,6 +2083,9 @@ input, select, textarea {
 			padding: 0 1.25em;
 		}
 
+		.navbar-brand{
+			margin: 10px 0px 0px 100px;
+		}
 			#nav a:hover {
 				color: #fff !important;
 				background: #383838;
