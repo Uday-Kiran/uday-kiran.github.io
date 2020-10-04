@@ -2402,6 +2402,9 @@ input, select, textarea {
 				line-height: 44px;
 			}
 
+			.navbar-brand{
+				margin: 6px 0px 0px 100px;
+			}
 				#nav a {
 					padding: 0 0.75em;
 					height: inherit;
@@ -2453,3 +2456,11 @@ input, select, textarea {
 					}
 
 	}
+
+	/* mobile screen */
+	@media screen and (max-width: 560px) {	
+	.navbar-brand{
+		margin: 6px 0px 0px 6%;
+	}
+
+}
